@@ -1,0 +1,6 @@
+git reset --hard ee360ab
+git clean -df
+git branch -va
+git branch -d test
+git branch remotes/origin/zombie.gun.dev
+git checkout zombie.gun.dev
